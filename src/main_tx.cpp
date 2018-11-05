@@ -22,7 +22,10 @@ int main(void)
     printf("This is PARANI1 (TX) node.\n");
 	fd_parani1 = open("/dev/PARANI1", O_RDWR | O_NOCTTY | O_NONBLOCK);
 	if (fd_parani1 == -1)
-		printf("Error - no serial port /dev/PARANI1 is opened! Check the serial device.\n");
+{		
+printf("Error - no serial port /dev/PARANI1 is opened! Check the serial device.\n");
+return -1;
+}
 	else
 		printf("/dev/PARANI1 is opened.\n");
 	memset(&newtio_tx, 0, sizeof(newtio_tx));
