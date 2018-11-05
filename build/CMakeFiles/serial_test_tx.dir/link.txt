@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -pg -g3 -O2 -m64 -Ofast -flto -msse2 -msse3 -march=native  -mfpmath=sse   CMakeFiles/serial_test_tx.dir/src/main_tx.cpp.o  -o serial_test_tx -rdynamic 

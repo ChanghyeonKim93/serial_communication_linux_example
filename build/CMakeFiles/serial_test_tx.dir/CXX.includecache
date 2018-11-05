@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/icslkchnuc/Documents/serial_communication_linux_example/src/main_tx.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+cstdlib
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+termios.h
+-
+fcntl.h
+-
+sys/poll.h
+-
+sys/time.h
+-
+

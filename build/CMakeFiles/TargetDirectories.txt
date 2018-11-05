@@ -1,0 +1,4 @@
+/home/icslkchnuc/Documents/serial_communication_linux_example/build/CMakeFiles/rebuild_cache.dir
+/home/icslkchnuc/Documents/serial_communication_linux_example/build/CMakeFiles/edit_cache.dir
+/home/icslkchnuc/Documents/serial_communication_linux_example/build/CMakeFiles/serial_test_tx.dir
+/home/icslkchnuc/Documents/serial_communication_linux_example/build/CMakeFiles/serial_test_rx.dir
